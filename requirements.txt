@@ -1,2 +1,5 @@
 ruff
 mypy
+pre-commit
+
+fairgraph
