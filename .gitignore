@@ -1,0 +1,9 @@
+.idea
+
+*.pyc
+*.*~
+build
+dist
+
+.venv/
+.mypy_cache/
