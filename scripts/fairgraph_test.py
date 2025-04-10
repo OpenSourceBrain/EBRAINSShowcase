@@ -34,12 +34,12 @@ def run(tokenfile: str):
     client = KGClient(token=token, host="core.kg.ebrains.eu")
 
     # web interface says there are 266 models
-    models: Model = Model.list(client, size=300)
+    models: list[Model] = Model.list(client, size=300)
     id_h = "ID"
     name_h = "Name"
     file_h = "File location"
     print(f"  {id_h:<40}|{name_h:<50}|{file_h:<70}")
-    data: dict[str, dict[str, str]] = {}
+    data: dict[str, dict[str, typing.Union[str, list[str]]]] = {}
     data_type: dict[str, int] = {"github": 0, "cscs": 0, "other": 0}
     errors: dict[str, dict[str, str]] = {}
     num_OK = 0
@@ -50,20 +50,49 @@ def run(tokenfile: str):
     for m in models:
         m_id = m.id.split(sep="/")[-1]
         m_versions: list[typing.Union[KGProxy, ModelVersion]] = []
+
+        keywords = []
+        if m.study_targets:
+            if isinstance(m.study_targets, KGProxy):
+                keyws = m.study_targets.resolve(client)
+            else:
+                keyws = m.study_targets
+
+            if isinstance(keyws, list):
+                for k in keyws:
+                    if isinstance(k, KGProxy):
+                        keywords.append(k.resolve(client).name)
+                    else:
+                        keywords.append(k.name)
+            else:
+                if isinstance(keyws, KGProxy):
+                    keywords.append(keyws.resolve().name)
+                else:
+                    keywords.append(keyws.name)
+
+        if m.abstraction_level:
+            if isinstance(m.abstraction_level, KGProxy):
+                abs_l = m.abstraction_level.resolve(client)
+            else:
+                abs_l = m.abstraction_level
+            keywords.append(abs_l.name)
+
+        description = f"{m.description}"
+
         if isinstance(m.versions, list):
             m_versions = m.versions
         else:
             m_versions = [m.versions]
 
         for v in m_versions:
+            # each version will have a unique description
+            v_description = f"{description}"
+
             v_r: typing.Optional[ModelVersion] = None
             if isinstance(v, KGProxy):
                 try:
                     v_r = v.resolve(client)
                 except ResolutionFailure:
-                    errors[m_id] = {
-                        "name": m.name,
-                    }
                     print(f"ERROR: Could not resolve {v.id}")
                     errors[m_id] = {
                         "name": m.name,
@@ -82,7 +111,17 @@ def run(tokenfile: str):
             try:
                 repository_r = repository.resolve(client)
                 print(f"* {m_id:<40}|{m.name[:45]:<50}|{repository_r.name:<70}")
-                data[m_id] = {"name": m.name, "repository": repository_r.name}
+
+                v_description += (
+                    f"\n{v_r.version_innovation}" if v_r.version_innovation else ""
+                )
+                data[m_id] = {
+                    "name": m.name,
+                    "repository": repository_r.name,
+                    "description": v_description,
+                    "version": v_r.version_identifier,
+                    "keywords": keywords,
+                }
                 if "github" in repository_r.name:
                     data_type["github"] += 1
                 elif "cscs.ch" in repository_r.name:
@@ -101,6 +140,7 @@ def run(tokenfile: str):
                 num_erred += 1
                 continue
 
+    print(data)
     with open(data_file, "w") as f:
         json.dump(data, f, indent=4)
 
