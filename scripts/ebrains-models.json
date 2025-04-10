@@ -1,0 +1,974 @@
+{
+    "00f2e856-27a8-4b8d-9ec3-4e2581c546e4": {
+        "name": "CA1_pyr_cACpyr_mpg141208_B_idA_20170915151855",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141208_B_idA_20170915151855/CA1_pyr_cACpyr_mpg141208_B_idA_20170915151855.zip?use_cell=cell_seed5_0.hoc&bluenaas=true"
+    },
+    "01da73a6-8715-431b-aaa7-efcd9358c786": {
+        "name": "CA1_pyr_cACpyr_mpg141208_B_idA_20190328144006",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg141208_B_idA_20190328144006/CA1_pyr_cACpyr_mpg141208_B_idA_20190328144006.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "01f49d73-e8a1-4f23-be30-d01bd52f89a2": {
+        "name": "Hippocampal formation as a hierarchical generative model",
+        "repository": "https://github.com/stoianov/HDGM/tree/V1"
+    },
+    "03d26f01-9197-4fae-97d7-09b33274b76f": {
+        "name": "CA1_int_cNAC_060314AM2_20190328165336",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_060314AM2_20190328165336/CA1_int_cNAC_060314AM2_20190328165336.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "03e67e24-6df5-405a-8299-7d797ecee58b": {
+        "name": "CA1_pyr_cACpyr_mpg150305_A_idB_20190305112012",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg150305_A_idB_20190305112012/CA1_pyr_cACpyr_mpg150305_A_idB_20190305112012.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "066e7c4c-2e67-449c-80c7-d6bcca2dc1dd": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828/CA1_pyr_cACpyr_oh140807_A0_idA_20190305112828.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "06cb2f7b-4e65-4cd5-9b9f-145db9375ba7": {
+        "name": "Ion channel models MSN",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Lindroos_2018_MSN/models/ion_channels_1.02_SGA2-m12.zip"
+    },
+    "082bb2b5-a171-471b-b2f8-38c8248a0ea6": {
+        "name": "2D Primary Visual Cortex Mean-Field Model",
+        "repository": "https://github.com/axelroques/2D_V1_MeanFieldModel-Roques2022/releases/tag/v1.0.1"
+    },
+    "08a973a3-465e-4b21-a108-7909e2d0c368": {
+        "name": "Mean-field approximation of network of biophysical neurons driven by conductance-based ion exchange",
+        "repository": "https://github.com/the-virtual-brain/tvb-root/blob/f192384007efacb7faafa7b00d46657cde3db6c3/tvb_documentation/demos/exploring_K_ION_Exchange_model.ipynb"
+    },
+    "09825984-730b-42c7-b53c-0d2346149e86": {
+        "name": "Bayesian Virtual Epileptic Patient",
+        "repository": "https://github.com/ins-amu/BVEP"
+    },
+    "09cbcd03-1e39-497a-a34e-090dde3617d8": {
+        "name": "Basal ganglia network model",
+        "repository": "https://senselab.med.yale.edu/ModelDB/showmodel.cshtml?model=249408#tabs-1"
+    },
+    "0b464928-c90b-4800-941a-71d1e3a62f1f": {
+        "name": "Multiscale model of a spiking basal ganglia network and a whole-brain mean-field model with The Virtual Brain",
+        "repository": "https://github.com/the-virtual-brain/tvb-multiscale/releases/tag/mex2022.1"
+    },
+    "0f752e56-d2fd-42c3-b211-93c816cda289": {
+        "name": "Bona fide models of nicotinic acetylcholine receptors in different physiologically relevant states",
+        "repository": "https://zenodo.org/record/5575907#.Yh3eEy8w3RY"
+    },
+    "0ffae3c2-443c-44fd-919f-70a4b01506a4": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150211_A_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150211_A_idA_080220241322/"
+    },
+    "101136f1-28ac-4e54-9823-53155709de3c": {
+        "name": "Regulation of adenylyl cyclase 5 in striatal neurons",
+        "repository": "https://github.com/danieltrpevski/AC5-kinetic-model"
+    },
+    "109e6b5f-589f-4198-a053-7361b0af5ec5": {
+        "name": "Model of excitable dendrites",
+        "repository": "https://senselab.med.yale.edu/ModelDB/showmodel.cshtml?model=244700"
+    },
+    "1160fca0-1565-4a09-b79b-c19aa5776e23": {
+        "name": "Granule cell 2011 for studying GoC-GrC circuit (GrC2011Souza)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "12564edc-2199-421b-85f2-aa954250b35a": {
+        "name": "Granule cell 2019 - Regular firing",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/live_paper_grc/SM_GrC2019_non_adapting_low_ahp.zip"
+    },
+    "134f30cd-f5e1-4885-9b82-04db8c643e0f": {
+        "name": "CA1_int_cNAC_010710HP2_20190328163258",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_010710HP2_20190328163258/CA1_int_cNAC_010710HP2_20190328163258.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "13b37dd4-37db-4047-99d6-9ccdf014eb67": {
+        "name": "Purkinje cell 2018 for studying voltage and branch specific climbing fiber effects (PC2018Zang)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "142fbe6f-b007-4049-a59e-433e09df8280": {
+        "name": "CA1_int_bAC_980120A_20190329120234",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_980120A_20190329120234/CA1_int_bAC_980120A_20190329120234.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "154db7b4-508f-41cc-90b6-645abaf7a6e3": {
+        "name": "The Virtual Aging Brain",
+        "repository": "https://github.com/ins-amu/virtual_aging_brain/tree/v1.0.0"
+    },
+    "174482dd-fa26-4a1b-a38e-4c57bd67e384": {
+        "name": "Large-scale high-resolution cortical model with long-range interconnections",
+        "repository": "https://github.com/APE-group/201903LargeScaleSimScaling"
+    },
+    "1842d8a7-630c-4b42-a5b0-e359edd8bf37": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152/CA1_pyr_cACpyr_oh140807_A0_idH_20190328143152.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "1912605a-6d21-45bf-b2a2-b981297b9af0": {
+        "name": "CA1_int_cNAC_970509HP2_20190305115627",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970509HP2_20190305115627/CA1_int_cNAC_970509HP2_20190305115627.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "1b6e4e06-7a4f-4b8c-be64-937f98011e0d": {
+        "name": "CA1_int_cNAC_010710HP2_20180119154335",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_010710HP2_20180119154335/CA1_int_cNAC_010710HP2_20180119154335.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "1b72e1e4-8061-46d2-89af-e5d24dff9340": {
+        "name": "Granule cell 2009 modeling Na+ channels to ensure fast spiking and back-propagation (GrC2009Diwakar)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "1ccc23ec-d3a6-43b6-b96f-41e9c4221a15": {
+        "name": "SpiNNCer: Neuromorphic cerebellum implementation on SpiNNaker",
+        "repository": "https://github.com/fbonnier/SpiNNCer/archive/refs/tags/v1.0.1.tar.gz"
+    },
+    "1e748985-9352-4f36-b101-2bc0b5f62fcf": {
+        "name": "Granule cell - Mono compartmental",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/grc_mono.zip"
+    },
+    "1e9a26c7-3a59-403c-a464-4ba3d0755fdd": {
+        "name": "Weakly adapting CA1 Pyr Model 2",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/EBRAINS_live_papers/2022_appukuttan_davison/models/Neuron/generic_Pyr_model_Neuron_with_mod_file.zip"
+    },
+    "2073be15-1354-493c-9d00-0097d4f19432": {
+        "name": "CA1_int_bAC_060314AM2_20190329115909",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_060314AM2_20190329115909/CA1_int_bAC_060314AM2_20190329115909.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "20906a1f-745a-4eb0-856a-7a5d602d6f03": {
+        "name": "Mean-field simulation of a population of conductance-based neurons",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/MIIND/conductance-based"
+    },
+    "21441582-2497-496d-900a-ac5444cffdbf": {
+        "name": "Conductance-based Adaptive Exponential Integrate and Fire Model",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/DestexheTeam?prefix=CAdEx/"
+    },
+    "21e7142a-bfed-4227-9080-3fd2445c92d9": {
+        "name": "CA1_pyr_cACpyr_mpg141209_A_idA_20190328144646",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg141209_A_idA_20190328144646/CA1_pyr_cACpyr_mpg141209_A_idA_20190328144646.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "2224111c-348b-4fc3-b685-680898e57c5a": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idG_20190328143451",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idG_20190328143451/CA1_pyr_cACpyr_oh140807_A0_idG_20190328143451.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "22eaa57b-d94f-4308-bd8f-602fc48631f7": {
+        "name": "A multiarea multiscale model with dopamine depletion in basal ganglia and cerebellum predicts changes in thalamocortical beta oscillations",
+        "repository": "https://zenodo.org/records/12698392"
+    },
+    "2314761d-efab-40f6-962c-b65e8a344ed0": {
+        "name": "Modelled adenylyl cyclase isoform structures",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/SGA2_molecular_models?prefix=data/Modelled_adenylyl_cyclase_AC_isoform_structures/"
+    },
+    "237fc014-010f-447b-b070-4b00848a513a": {
+        "name": "Purkinje cell 2006 for studying resurgent Na+ current and Kv3 channel interactions on rate of spontaneous firing (PC2006Akemann)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "26305a02-fd34-4d75-ab8e-4c9f8e62b693": {
+        "name": "Olfactory bulb mitral cell model",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/VF_paper_demo?prefix=models/davison2000/model_Full/"
+    },
+    "298da091-5ffb-41db-9581-e26832124aa5": {
+        "name": "Macroscopic model of brain function",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/DestexheTeam?prefix=Goldman"
+    },
+    "2baa1df0-badd-4313-b576-a145b5990997": {
+        "name": "Rall Morphology Model for Layer 5 Pyramidal Cells in Mouse V1",
+        "repository": "https://github.com/yzerlaut/diverse_coupling_to_synaptic_activity"
+    },
+    "2ea91763-bb0b-4a4f-9a6a-eb4d001afde5": {
+        "name": "Mouse stroke Brain network model",
+        "repository": "https://github.com/esaps/AllenMouse_strokeKuramoto"
+    },
+    "2f173cdb-e3c7-4de2-9800-735622de72c6": {
+        "name": "Granule cell 1994 for studying synaptic integration (GrC1994Gabbiani)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "3241346a-7656-46c8-8db7-9a902f157ef4": {
+        "name": "CA1_int_cAC_011017HP2_20190328145524",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_011017HP2_20190328145524/CA1_int_cAC_011017HP2_20190328145524.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "32d9115b-f955-4fd3-acd0-4bfd594593d9": {
+        "name": "[Re] Saccade Generator",
+        "repository": "https://github.com/ReScience-Archives/Senden-Schuecker-Hahne-Diesmann-Goebel-2018"
+    },
+    "32e21f84-03e6-442c-ab0c-e115aa89dec7": {
+        "name": "Purkinje cell 2015 for studying alcohol modulation on 1088 compartment model (PC2015aForrest)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "34432e96-b549-4372-8612-825ac740fcbd": {
+        "name": "CA1_int_cNAC_990111HP2_20190329155703",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_990111HP2_20190329155703/CA1_int_cNAC_990111HP2_20190329155703.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "34f3ff1a-4965-4ab6-9a35-19ef7c24ccb9": {
+        "name": "Motor control model - T443",
+        "repository": "https://github.com/mickelindahl/bgmodel/releases/tag/v1.0"
+    },
+    "3515ec61-5053-48ff-8d39-39c99870a2f8": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idC_20170912112759",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idC_20170912112759/CA1_pyr_cACpyr_oh140807_A0_idC_20170912112759.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "35882a62-2a4f-4410-a30e-c13ac797f3f7": {
+        "name": "Object Recognition for Scene Understanding",
+        "repository": "https://github.com/ccnmaastricht/object_recognition_for_scene_understanding_v1/releases/tag/v1.0"
+    },
+    "36090403-02a2-4934-8f99-4ed0d11440cc": {
+        "name": "Rat Hippocampus CA1",
+        "repository": "https://ksproxy.cscs.ch:13000/rat-ca1-network-model-v7-r2019.06"
+    },
+    "3614b4ce-9131-4b33-b92c-e0e59157c858": {
+        "name": "Anthropomorphic Reach RNN",
+        "repository": "https://github.com/ccnmaastricht/dexterous-robot-hand/releases/tag/1.0"
+    },
+    "36b2d233-2ac0-48fa-986f-c9f25b5fc631": {
+        "name": "Probabilistic localization by rodent grid cells",
+        "repository": "https://github.com/talfanevans/probabilistic_localization_grid_cells/releases/tag/1.0"
+    },
+    "3772094a-8e2d-4075-8f05-9be62c8d8a5d": {
+        "name": "Dichotomy of action-potential backpropagation in CA1 pyramidal neuron dendrites (Golding et al 2001)",
+        "repository": "http://modeldb.yale.edu/64167"
+    },
+    "394528b6-0414-48e3-a9d9-882fb321cf0e": {
+        "name": "CA1_pyr_cACpyr_mpg150305_A_idB_20170915111718",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg150305_A_idB_20170915111718/CA1_pyr_cACpyr_mpg150305_A_idB_20170915111718.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "3c3f76b7-f8f2-42f6-87f3-ca7590705abb": {
+        "name": "Effect of active conductances on LFP from cortical population",
+        "repository": "https://github.com/torbjone/aPop.git"
+    },
+    "3c600230-3e20-4349-9959-733d1e48eb15": {
+        "name": "CA1_int_cAC_980513B_20190328161527",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_980513B_20190328161527/CA1_int_cAC_980513B_20190328161527.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "3ca9ae35-c9df-451f-ac76-4925bd2c7dc6": {
+        "name": "AdEx Neuron Models with PyNN",
+        "repository": "https://gist.github.com/nuuria8/82bbe73a65196aca22e498ae389ab102"
+    },
+    "3d8393a1-498c-4e6d-b31d-f578b285bceb": {
+        "name": "Biophysical and phenomenological models of multiple spike interactions in spike-timing dependent plasticity",
+        "repository": "http://modeldb.yale.edu/113997"
+    },
+    "3fb6752b-8438-49e5-b836-294fb8d6c432": {
+        "name": "CA1_pyr_cACpyr_mpg141217_A_idB_20170915111538",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141217_A_idB_20170915111538/CA1_pyr_cACpyr_mpg141217_A_idB_20170915111538.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "3ff4367a-ea8f-402c-b75f-5bdeed876940": {
+        "name": "CA1 hypofunction in schizophrenia",
+        "repository": "http://modeldb.yale.edu/138205"
+    },
+    "422f2b8e-3b7d-4a01-aa2f-2dcb2270e1cd": {
+        "name": "The Virtual Epileptic Patient",
+        "repository": "http://nbviewer.jupyter.org/url/docs.thevirtualbrain.org/tutorials/tutorial_s6_ModelingEpilepsy.ipynb"
+    },
+    "44ce578d-0974-423e-a414-840ce182e82f": {
+        "name": "Network model of spontaneous activity in cortex",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/DestexheTeam/simulations_JCNS_2018.zip"
+    },
+    "456c1fac-39dd-4451-a768-9a4637d59b86": {
+        "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 3/0603",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell0603_03_model_476.zip?delay=120.33&vinit=-86&dt=.025&amp=0.7&tstop=1500&dur=1000?bluenaas=true"
+    },
+    "45814458-9551-46f8-9559-b30ffe670413": {
+        "name": "Mean field model for Hodgkin Huxley networks of neurons",
+        "repository": "https://senselab.med.yale.edu/modeldb/ShowModel?model=263259"
+    },
+    "459a2b17-bcb7-4835-822d-9fa7e3395a8f": {
+        "name": "Mean-field Model of AdEx networks",
+        "repository": "https://senselab.med.yale.edu/modeldb/ShowModel.cshtml?model=234992"
+    },
+    "46770371-345e-445f-b474-641db1eef3f2": {
+        "name": "Striatum microcircuit",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Grillner_SGA2_T6.2.4/striatum-network-2020Q1.tar.xz"
+    },
+    "469e4b78-8b3b-459d-88b6-c9ad10ee11ea": {
+        "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 11/0603",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell0603_11_model_937.zip?delay=120.33&vinit=-86&dt=.025&amp=0.7&tstop=1500&dur=1000?bluenaas=true"
+    },
+    "471216dc-ab00-48ac-a34c-47446c68eaac": {
+        "name": "Optimized single-cell models MSN",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Grillner_SGA2_T6.1.6/msn-optim-2019Q3.zip"
+    },
+    "49b21755-313b-432c-93ba-e6812b006077": {
+        "name": "Simulation of a Free Energy Landscape of Neuroreceptor/Ligand Unbinding using Metadynamics",
+        "repository": "https://www.plumed-nest.org/eggs/20/000/"
+    },
+    "4a3278f5-f74e-47e6-b785-492e85cceaf7": {
+        "name": "CA1_pyr_cACpyr_oh140521_B0_Rat_idC_20170915112201",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140521_B0_Rat_idC_20170915112201/CA1_pyr_cACpyr_oh140521_B0_Rat_idC_20170915112201.zip?use_cell=cell_seed4_0.hoc&bluenaas=true"
+    },
+    "4c5d8992-f2d4-43ad-bb27-23b98836e59b": {
+        "name": "CA1 pyramidal neuron: as a 2-layer neural network and subthreshold synaptic summation",
+        "repository": "https://github.com/ModelDBRepository/20212/tree/6a5022399b66d536524cbb9f915d8f766b9216ad"
+    },
+    "4d5963ac-6237-4375-9181-a7e27eed9b01": {
+        "name": "CA1_int_cNAC_980120A_20180119155115",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_980120A_20180119155115/CA1_int_cNAC_980120A_20180119155115.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "4d6338f2-a330-4c53-8c67-19bdab60ffc0": {
+        "name": "Granule cell, single compartment model - D'Angelo et al., 2001",
+        "repository": "https://senselab.med.yale.edu/modeldb/showModel.cshtml?model=46839"
+    },
+    "4d8d632b-2425-4b69-b071-caec3fc0ed97": {
+        "name": "A biophysically and morphologically detailed model of the murine inferior olivary nucleus",
+        "repository": "https://github.com/llandsmeer/ioclusters-ebrains-demo/tree/v1.0"
+    },
+    "5078e019-5047-417c-b91c-560a32624e1e": {
+        "name": "CA1_int_cNAC_970509HP2_20180117154753",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970509HP2_20180117154753/CA1_int_cNAC_970509HP2_20180117154753.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "5275640f-bdd3-4097-9488-b330a7068295": {
+        "name": "A comprehensive data-driven model of cat primary visual cortex",
+        "repository": "https://github.com/CSNG-MFF/mozaik-models/"
+    },
+    "528ec0e6-2f21-413c-9abd-d131f7150882": {
+        "name": "Mechanisms of the depolarization block in CA1 pyramidal neurons - Bianchi et al., 2012",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippounit_paper_resources/models/CA1_Bianchi_2012.zip"
+    },
+    "548f233a-9762-4de7-8c06-737dee749c34": {
+        "name": "Collection of hippocampal CA1 pyramidal cell and interneuron models - Migliore et al. 2018",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1"
+    },
+    "54e67d53-85ae-4aab-9242-bb9e41118a3a": {
+        "name": "CA1_int_cAC_990611HP2_20190328162145",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_990611HP2_20190328162145/CA1_int_cAC_990611HP2_20190328162145.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "55e964a9-0eb7-4c78-9fab-b7ffbc82f50a": {
+        "name": "The Virtual Mouse Brain",
+        "repository": "https://nbviewer.org/url/docs.thevirtualbrain.org/demos/interacting_with_Allen.ipynb"
+    },
+    "57606074-290d-484b-81e7-d9757d795048": {
+        "name": "Brain Network Model of delay-coupled oscillators",
+        "repository": "https://gitlab.thevirtualbrain.org/spase.petkoski/philtransrsoca2019"
+    },
+    "579f94f0-9e84-42bb-a659-9bda95d0e01a": {
+        "name": "CA1_int_cNAC_980513B_20190329155523",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_980513B_20190329155523/CA1_int_cNAC_980513B_20190329155523.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "58545a37-eaf4-4658-8669-2a42c20f0a64": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150217_A3_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150217_A3_idA_080220241410/"
+    },
+    "5a17a502-a07f-47ce-9d88-bbe99c3760b5": {
+        "name": "CA1_int_cAC_970627BHP1_20190328160727",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_970627BHP1_20190328160727/CA1_int_cAC_970627BHP1_20190328160727.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "5a27bdeb-94f5-4c53-a484-d313b2833641": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150217_A3_idB",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150217_A3_idB_080220241436/"
+    },
+    "5abf10fe-c2fc-4d77-b957-22b7868b4444": {
+        "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 8/0603",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell0603_08_model_602.zip?delay=120.33&vinit=-86&dt=.025&amp=0.7&tstop=1500&dur=1000?bluenaas=true"
+    },
+    "5aedd2c3-05a1-498d-b365-f34dc82fce34": {
+        "name": "Sensory- and self-motion integration for location",
+        "repository": "https://github.com/talfanevans/probabilistic_localization_grid_cells/releases/tag/1.0"
+    },
+    "5b54a8be-fa6b-41ea-8650-26001d74df48": {
+        "name": "Bayesian network models for analyzing morphological structure of hippocampal CA1 pyramidal neurons",
+        "repository": "https://github.com/ComputationalIntelligenceGroup/species-compare-morpho/releases/tag/1.0"
+    },
+    "5ebea063-65e6-4e3e-86cc-fd367555c134": {
+        "name": "CA1_pyr_cACpyr_mpg141017_a1-2_idC_20190328143405",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg141017_a1-2_idC_20190328143405/CA1_pyr_cACpyr_mpg141017_a1-2_idC_20190328143405.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "658d15b5-2fe7-4106-9d91-d769a247d1e3": {
+        "name": "Mean Field Simulation of whole mouse hemisphere with parameters inferred from optical recordings",
+        "repository": "https://github.com/PierStanislaoPaolucci/2020WholeMouseCortHemisphMFsim"
+    },
+    "660abf2e-95ab-420c-a8ba-b2cf070d1770": {
+        "name": "Model of gaze centred activation and reactivation of value encoding in orbitofrontal cortex",
+        "repository": "https://doi.gin.g-node.org/10.12751/g-node.72yf9s/"
+    },
+    "6702f3ce-d61b-4b5a-86d0-f4bef3aeb6b6": {
+        "name": "Biologically realistic mean-field models",
+        "repository": "https://senselab.med.yale.edu/modeldb/ShowModel?model=263236"
+    },
+    "67a0027f-353f-4d46-b1c9-7b15cd7edd15": {
+        "name": "Brain Network Model of Kuramoto oscillators for calculating phase lags",
+        "repository": "https://gitlab.thevirtualbrain.org/spase.petkoski/plos_PLSNS"
+    },
+    "68f1e77f-fd10-45c3-975c-942869512a19": {
+        "name": "Optimized single-cell models, striatum interneurons",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Grillner_SGA2_T6.2.4/striatum-interneurons-optim-2020Q1.zip"
+    },
+    "6939055f-96af-4a00-aa8a-5bec03f55982": {
+        "name": "Spiking Saccade Generator",
+        "repository": "https://github.com/ccnmaastricht/spiking_saccade_generator"
+    },
+    "6966e59a-a7ae-4b55-b8f9-c7ef290a2c5a": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idH_20170915113422",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idH_20170915113422/CA1_pyr_cACpyr_oh140807_A0_idH_20170915113422.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "69ceab71-a633-4ae1-bfa6-3c7e2227411c": {
+        "name": "CA1_pyr_cACpyr_mpg141017_a1-2_idC_20170918151638",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141017_a1-2_idC_20170918151638/CA1_pyr_cACpyr_mpg141017_a1-2_idC_20170918151638.zip?use_cell=cell_seed4_0.hoc&bluenaas=true"
+    },
+    "6c770ceb-55b9-41cb-9b71-d115b5f9a021": {
+        "name": "Sequence learning in a single trial: a spiking neurons model based on hippocampal circuitry",
+        "repository": "https://senselab.med.yale.edu/ModelDB/showmodel.cshtml?model=266849"
+    },
+    "6d4278d5-3cbe-4722-8c7d-b7bfba1422ea": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150218_A2_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150218_A2_idA_080220241457/"
+    },
+    "708024f7-9dd7-4c92-ae95-936db23c6d99": {
+        "name": "Scaffold Model of Cerebellum microcircuit version 2.0",
+        "repository": "https://github.com/dbbs-lab/scaffold"
+    },
+    "70b01e7d-7cec-48f1-8934-76eb6edbb53f": {
+        "name": "Granule cell 2019 - Mild adapting",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/live_paper_grc/SM_GrC2019_mild_adapting.zip"
+    },
+    "70b752e4-5cf7-4332-add7-f9dfe3a22c3a": {
+        "name": "Golgi cell 2010 for studying alcohol modulation by inhibiting Na-K ATPase (GoC2010Botta)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "73460bbd-e902-476a-943e-f09c151a3b81": {
+        "name": "CA1_int_bAC_971114B_20190329120113",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_971114B_20190329120113/CA1_int_bAC_971114B_20190329120113.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "741fb860-6e81-4b49-b53d-6090ca962c2e": {
+        "name": "Purkinje cell 1997 for Dendritica constructed with Neurolucida (PC1997aHausser)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "746e5d32-499f-4374-b31c-10ad0883fa2e": {
+        "name": "CA1_int_bAC_971114B_20180117154233",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_971114B_20180117154233/CA1_int_bAC_971114B_20180117154233.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "76d30363-2c8a-4a99-8e73-ce5e0a915966": {
+        "name": "Learning cortical representations through perturbed and adversarial dreaming",
+        "repository": "https://github.com/NicoZenith/PAD/releases/tag/v1"
+    },
+    "7828848c-0cfb-4e35-99c7-6e1c3c560558": {
+        "name": "Electrophysiological and subcellular signaling model of the direct-pathway striatal projection neuron--baseline activation of D1R",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Lindroos_2018_MSN/models/MSND1_full.zip?bluenaas=true"
+    },
+    "7896b92a-62e1-41b0-b5ca-0faed66e5c7d": {
+        "name": "CA1_int_cNAC_011017HP2_20190328164612",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_011017HP2_20190328164612/CA1_int_cNAC_011017HP2_20190328164612.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "78b677c8-f21c-4278-b49a-265e3222f4f7": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idB_20190305105211",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idB_20190305105211/CA1_pyr_cACpyr_oh140807_A0_idB_20190305105211.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "7983d4b1-7891-45fd-9449-04a1a9d088d3": {
+        "name": "Logic gate random networks to evaluate approximations and heuristic measures of Integrated Information",
+        "repository": "https://github.com/andresni/miniPHI/blob/master/miniPHI.ipynb"
+    },
+    "7ae36b1a-480e-4e5b-8cdf-5d7e5d2e4e71": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150304_A1_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150304_A1_idA_080220241350/"
+    },
+    "7ef05df0-4a8a-45d5-8564-27d0395bc8d3": {
+        "name": "The hippocampus-ventral striatum circuit model in the Neurorobotics Platform",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/Falotico?prefix=hippocampus-ventral-striatum/code"
+    },
+    "80b96324-c96c-4bbe-bfa6-692ef85ee0f0": {
+        "name": "Weakly adapting CA1 Pyr Model 1",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/EBRAINS_live_papers/2022_appukuttan_davison/models/Neuron/generic_Pyr_model_Neuron_with_mod_file.zip"
+    },
+    "80ff1b87-be8a-4fea-8e14-f8fa5108ddfb": {
+        "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 3/1303",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell1303_03_model_448.zip?delay=120.33&vinit=-86&dt=.025&amp=0.55&tstop=1500&dur=1000?bluenaas=true"
+    },
+    "81036bdb-5c5f-4bcf-9baa-24d62f9bdf45": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idG_20170915113354",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idG_20170915113354/CA1_pyr_cACpyr_oh140807_A0_idG_20170915113354.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "82b0efd7-39a6-4f13-a706-4f918a7be6b9": {
+        "name": "CA1_int_cNAC_970627BHP1_20190306162834",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970627BHP1_20190306162834/CA1_int_cNAC_970627BHP1_20190306162834.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "82d9f11f-21ea-477d-a799-23a1a9ccdf04": {
+        "name": "Effect of tissue impedance on LFPs",
+        "repository": "https://senselab.med.yale.edu/modeldb/ShowModel.cshtml?model=224923"
+    },
+    "839a7a2e-b2d1-492b-b0a0-c0d14485c7e2": {
+        "name": "CA1_int_cNAC_060314AM2_20180120154747",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_060314AM2_20180120154747/CA1_int_cNAC_060314AM2_20180120154747.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "83a5f4bb-4e1d-4806-a2b5-1dd906c680f5": {
+        "name": "Retinal Compression Algorithm",
+        "repository": "https://github.com/ccnmaastricht/ganglion_cell_sampling/tree/1.0"
+    },
+    "8584c948-8a3a-4317-a798-f65c808b8e40": {
+        "name": "Purkinje cell 2011 for a strategy of merging biochemical with electrophysiology (PC2011Brown)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "89048ecd-14b4-45b6-a6c0-b4d6f15231e2": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150304_A3_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150304_A3_idA_080220241345/"
+    },
+    "890ef982-4a00-428d-b4a9-fab1313d8ef3": {
+        "name": "Electrophysiological and subcellular signaling model of the direct-pathway striatal projection neuron--transient activation of D1R",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Lindroos_2018_MSN/models/MSND1_dynamic.zip?bluenaas=true"
+    },
+    "8c030997-e8bf-43e6-9486-890cf212b825": {
+        "name": "Visual saliency prediction",
+        "repository": "https://github.com/alexanderkroner/saliency/tree/42b8bb61e163072768dd735afd35cb22b37036e4"
+    },
+    "8ec9388e-1e19-4fc5-a770-5e6d9a452f25": {
+        "name": "Electrophysiological and subcellular signaling model of the direct-pathway striatal projection neuron--half activation of D1R",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Lindroos_2018_MSN/models/MSND1_fixed_half.zip?bluenaas=true"
+    },
+    "90228422-0a03-4101-ad1c-a0c316ef06f7": {
+        "name": "CA1_int_cNAC_980513B_20180119155127",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_980513B_20180119155127/CA1_int_cNAC_980513B_20180119155127.zip?use_cell=cell_seed1_0.hoc&bluenaas=true"
+    },
+    "903b191f-348f-4230-8622-8bf382542ab9": {
+        "name": "Thalamo-cortical spiking model of incremental learning combining perception, context and NREM-sleep",
+        "repository": "https://github.com/APE-group/ThaCo2"
+    },
+    "90c7bda2-60e4-4dfe-b516-4ba9e97c5dee": {
+        "name": "Analysis of protein-ligand dissociation",
+        "repository": "https://zenodo.org/record/2652166#.XMMg6YWxU5k"
+    },
+    "91cb3d67-c16b-41f7-99ab-0958c94816cc": {
+        "name": "CA1_pyr_cACpyr_mpg141209_A_idA_20170912152008",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141209_A_idA_20170912152008/CA1_pyr_cACpyr_mpg141209_A_idA_20170912152008.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "92c9b590-b16a-4b6d-832b-b672eb6d0a3d": {
+        "name": "Recurrent deep networks with feedback for modern AI",
+        "repository": "https://github.com/cjspoerer/rcnn-sat"
+    },
+    "933b6b54-d458-40ce-bfb9-0d8236f9e837": {
+        "name": "CA1_int_bAC_011023HP2_20190329115556",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_011023HP2_20190329115556/CA1_int_bAC_011023HP2_20190329115556.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "93e78507-ddbc-4343-9aa4-397a3f536c43": {
+        "name": "Brain-inspired spiking neural network controller for a neurorobotic whisker system",
+        "repository": "https://github.com/alberto-antonietti/paper_whisking/releases/tag/v1"
+    },
+    "95736f3f-bfef-4394-b967-75e78af3df4f": {
+        "name": "Spiking network modeling of in vitro slow wave activity",
+        "repository": "https://object.cscs.ch/v1/AUTH_6ebec77683fb472f94d352be92b5a577/SNN%20modeling%20in%20vitro%20SWA/2DFieldSimulator_collab.ipynb"
+    },
+    "95866c59-26d2-4d84-b1aa-95e1f9cf53bd": {
+        "name": "Potjans & Diesmann, 2014 - microcircuit model of early sensory cortex",
+        "repository": "https://github.com/OpenSourceBrain/PotjansDiesmann2014"
+    },
+    "98314952-b8bb-4c87-949b-4c75d1c3a095": {
+        "name": "Strongly adapting CA1 Pyr Model",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/EBRAINS_live_papers/2022_appukuttan_davison/models/Neuron/generic_Pyr_model_Neuron_with_mod_file.zip"
+    },
+    "9d3e727c-d69b-4021-881b-b45e7ce51000": {
+        "name": "CA1_pyr_cACpyr_mpg141216_A_idA_20190305133333",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg141216_A_idA_20190305133333/CA1_pyr_cACpyr_mpg141216_A_idA_20190305133333.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "9e57e0e6-20d0-4dfe-8b53-099f6b9db180": {
+        "name": "A synapse model for developing somatosensory cortex (Manninen et al 2020)",
+        "repository": "http://modeldb.yale.edu/266819"
+    },
+    "9e8b55c5-d22f-43c5-b235-8f9f4a66b43e": {
+        "name": "Scaffold model of mouse CA1 hippocampus",
+        "repository": "http://modeldb.yale.edu/267531"
+    },
+    "9f39cd68-ed86-4eb3-ab51-5ab02e2e8ecb": {
+        "name": "CA1_int_cNAC_971114B_20190329154607",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_971114B_20190329154607/CA1_int_cNAC_971114B_20190329154607.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "a09224a0-4eb8-44db-b23a-a7129948b3f6": {
+        "name": "A generative network model of visual perception that learns invariant object representations through local minimization of prediction errors",
+        "repository": "https://github.com/matthias-brucklacher/PCInvariance/releases/tag/v2.0"
+    },
+    "a1dbb6f8-769f-4f72-9e2b-09586f4cefb8": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idF_20171003112912",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idF_20171003112912/CA1_pyr_cACpyr_oh140807_A0_idF_20171003112912.zip?use_cell=cell_seed5_0.hoc&bluenaas=true"
+    },
+    "a222f243-2bf9-491b-93a1-8810505df71e": {
+        "name": "Granule cell 2019 - Strong adapting",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/live_paper_grc/SM_GrC2019_adapting.zip"
+    },
+    "a33ae47b-b3b7-4670-a7e2-339d1093fc24": {
+        "name": "Granule cell 2016 for studying FHF-independent conduction along the axon (GrC2016Dover)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "a362c230-7fcd-4ede-8233-c104d3aef8bd": {
+        "name": "Purkinje cell 2003 for studying resurgent Na+ current contribution to high-frequency firing (PC2003Khaliq)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "a3a600b5-9db0-49e7-b4fb-d577aeda6474": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idJ_20170915113621",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idJ_20170915113621/CA1_pyr_cACpyr_oh140807_A0_idJ_20170915113621.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "a5efa9cd-19c4-4f3c-8466-dce4ee03966d": {
+        "name": "Long range dependence in Integrate and Fire models",
+        "repository": "http://modeldb.yale.edu/235054"
+    },
+    "a707278e-aa02-4e57-a42c-0364126e4a64": {
+        "name": "Granule cell - Multi compartmental",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/grc_multi.zip"
+    },
+    "a73f94cf-0ccb-42f8-94a2-ad95ecb5cba4": {
+        "name": "CA1_int_cAC_010710HP2_20190328145252",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_010710HP2_20190328145252/CA1_int_cAC_010710HP2_20190328145252.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "a8101bf9-6f07-46d7-8fbd-7c30785ad6c7": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idA_20170915112548",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idA_20170915112548/CA1_pyr_cACpyr_oh140807_A0_idA_20170915112548.zip?use_cell=cell_seed5_0.hoc&bluenaas=true"
+    },
+    "a84b39e7-6bd4-43b5-89cf-930ba1fffc57": {
+        "name": "Corrected Four-Sphere Head Model for EEG Signals",
+        "repository": "https://github.com/solveignaess/fourspheremodel.git"
+    },
+    "a8e7bfa3-d873-4e47-b70c-e529fc70eff5": {
+        "name": "CA1_int_bAC_011127HP1_20190329115610",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_011127HP1_20190329115610/CA1_int_bAC_011127HP1_20190329115610.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "a904e43c-84c1-46d0-85b1-21377787214f": {
+        "name": "Active Inference computational model of active whisking",
+        "repository": "https://github.com/francesco-mannella/Active-Inference-Whiskers-Model/releases/tag/V1"
+    },
+    "aa0911ad-abad-4bac-8b1d-28796bfb3df0": {
+        "name": "CA1_int_cNAC_971114B_20180119155005",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_971114B_20180119155005/CA1_int_cNAC_971114B_20180119155005.zip?use_cell=cell_seed1_0.hoc&bluenaas=true"
+    },
+    "ab494dba-8782-4917-b179-867ec39d5037": {
+        "name": "Recurrent model of V1 orientation tuning",
+        "repository": "https://github.com/ccnmaastricht/LTI/releases/tag/version_1.0"
+    },
+    "ab570001-df66-466c-bc6f-1b44cd324222": {
+        "name": "CA1_int_bAC_011023HP2_20180116154023",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_011023HP2_20180116154023/CA1_int_bAC_011023HP2_20180116154023.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "b00e6ebe-a633-4266-a221-0414d22efd4d": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150218_A1_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150218_A1_idA_080220241450/"
+    },
+    "b0c72944-6dd1-4076-912b-ba825f1ab8aa": {
+        "name": "Network model of Up-Down slow oscillations in L5 cortex of sleeping and anesthetized mammals",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/public/buckets/m-4b13fe21-28f9-4373-9a05-04f450cb6e1d"
+    },
+    "b115de80-9524-4e84-a3f9-b40816ab3753": {
+        "name": "Benchmark model 2 from Brette et al. (2007)",
+        "repository": "https://github.com/apdavison/Brette-etal-2007/releases/tag/PyNN-v0.10.1"
+    },
+    "b2616cba-d4cb-47c9-8caf-f601f76e7250": {
+        "name": "Scaffold Model of Cerebellum microcircuit",
+        "repository": "https://github.com/SelezioneCasuale/scaffold_model_cerebellum/tree/v1.0"
+    },
+    "b2d853aa-ebef-40a5-8af9-aefe0b566c45": {
+        "name": "A two-stage model of dendritic integration in CA1 pyramidal neurons (Katz et al., 2009)",
+        "repository": "http://modeldb.yale.edu/127351"
+    },
+    "b2fcb737-cfd8-49ae-b4be-16c2f3934d40": {
+        "name": "CA1_int_cNAC_011017HP2_20180119154507",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_011017HP2_20180119154507/CA1_int_cNAC_011017HP2_20180119154507.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "b4e5e4f9-0280-47ec-ad1e-bd81f632ceea": {
+        "name": "Visual target selection",
+        "repository": "https://github.com/ccnmaastricht/target_selection/tree/v0.6.0"
+    },
+    "b5ef2c2e-f0bf-4624-a579-7e1be74f8800": {
+        "name": "CA1_int_cAC_031031AM1_20180201104443",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cAC_031031AM1_20180201104443/CA1_int_cAC_031031AM1_20180201104443.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "b6574eba-7098-4572-a926-1f3c52d48b27": {
+        "name": "CA1_int_cNAC_011023HP2_20190328164923",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_011023HP2_20190328164923/CA1_int_cNAC_011023HP2_20190328164923.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "b7ed7c3b-02c5-4d11-8793-3fabaf8c6dc5": {
+        "name": "Sparsely connected networks of excitatory and inhibitory neurons - Brunel, 2000",
+        "repository": "https://github.com/OpenSourceBrain/Brunel2000"
+    },
+    "b86f93c8-cd89-4e1d-863e-1604525bf376": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idJ_20190328142723",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idJ_20190328142723/CA1_pyr_cACpyr_oh140807_A0_idJ_20190328142723.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "b9416d3f-d7d6-480e-bc8a-9f2390d38246": {
+        "name": "Model of neurovascular coupling via astrocytic calcium dynamics",
+        "repository": "https://zenodo.org/record/7818101"
+    },
+    "b9a984c8-cc75-4491-92ab-61482e8d12e0": {
+        "name": "Passive Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 3/0603",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell0603_03_model_476.zip?delay=111&vinit=-70.1?bluenaas=true"
+    },
+    "ba7a45c5-3f9f-4d25-a63b-f15b48cdf548": {
+        "name": "INST/FILT Learning Rule",
+        "repository": "https://github.com/SpikeFrame/TemporalEncoding"
+    },
+    "bad659c6-f585-4bb4-bb4c-11a2822dc94b": {
+        "name": "Topological Similarity",
+        "repository": "https://github.com/gorkazl/pyGAlib"
+    },
+    "bb83c94a-8a3a-4830-95ae-2cc7905c7f5f": {
+        "name": "Recurrent neural networks that learn multi-step visual routines with reinforcement learning",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-8c62f509-5876-4101-8cfb-6db39c90ff98"
+    },
+    "bc860e5e-d6cc-4a59-b452-0652982fc45d": {
+        "name": "CA1_int_cAC_990611HP2_20180122160209",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cAC_990611HP2_20180122160209/CA1_int_cAC_990611HP2_20180122160209.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "bd7b8352-0d30-40a4-b551-f8b4f93f65c5": {
+        "name": "Slow waves form expanding, memory-rich mesostates steered by local excitability in fading anesthesia",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-39526a60-0c72-4b20-b850-a2bffbf02049"
+    },
+    "be001074-7eab-4c7e-9bde-9e5987b085d2": {
+        "name": "Multi-area model of macaque visual cortex",
+        "repository": "https://github.com/INM-6/multi-area-model"
+    },
+    "c0fb0b6f-5e91-49cb-9878-9d7a4900f130": {
+        "name": "Saccades for Scene Understanding Closed Loop",
+        "repository": "https://github.com/ccnmaastricht/CDP4_NRP"
+    },
+    "c2688a43-75db-4b80-9404-0bfad78afc5f": {
+        "name": "Sudoku solver",
+        "repository": "https://github.com/GAFonsecaGuerra/SpiNNakerCSPs"
+    },
+    "c28c4e1f-0ef3-4ccd-9a81-8e792aa349a4": {
+        "name": "Model of two-photon calcium signals",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/DestexheTeam/?prefix=tort-colet-destexhe-two-photon-calcium-signals/"
+    },
+    "c3a4c662-ddab-41ff-99bf-4594edb0371c": {
+        "name": "Spiking network model of cortical areas exploring the edge of synchronization",
+        "repository": "https://nbviewer.org/urls/object.cscs.ch/v1/AUTH_6ebec77683fb472f94d352be92b5a577/SnnAtTheTheEdgeOfSynchronization%20%40%20V1/Spiking%20network%20model%20of%20cortical%20areas%20exploring%20the%20edge%20of%20synchronization.ipynb"
+    },
+    "c3e51ddc-3c5d-4d32-9bc8-0c9e9174c470": {
+        "name": "CA1_int_cAC_031031AM1_20190328150015",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_031031AM1_20190328150015/CA1_int_cAC_031031AM1_20190328150015.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "c45ae1c6-d06a-44b1-99a3-64be8290e414": {
+        "name": "CA1_int_cNAC_970911C_20190305120404",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970911C_20190305120404/CA1_int_cNAC_970911C_20190305120404.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "c46f8421-7efc-4fb3-9b1c-fa67b055dfb6": {
+        "name": "CA1_int_cNAC_990611HP2_20180120155246",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_990611HP2_20180120155246/CA1_int_cNAC_990611HP2_20180120155246.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "c50e0238-076d-41b4-9b64-9980d1f30994": {
+        "name": "Biophysical models of striatal neurons",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/m_a6458de3-a176-4378-9b03-34a26f5da3bd"
+    },
+    "c64490c1-c8af-46c2-a0ea-ec489e7ba451": {
+        "name": "V1 cortical column model with multiple interneuron types",
+        "repository": "https://github.com/GiuliaMoreni95/Phd/releases/tag/v1.0"
+    },
+    "c64f6026-8644-4cf5-bad6-d697f6a6d458": {
+        "name": "Electrophysiological and subcellular signaling model of the direct-pathway striatal projection neuron--full activation of D1R",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Lindroos_2018_MSN/models/MSND1_fixed_full.zip?bluenaas=true"
+    },
+    "cb62b56e-bdfa-4016-81cd-c9dbc834cebc": {
+        "name": "Dendritic processing in hippocampal pyramidal cells - Kali & Freund, 2004",
+        "repository": "https://github.com/apdavison/hippocampus_CA1_pyramidal"
+    },
+    "cf46be9e-4a95-41d3-86a4-b61e2d5d4a09": {
+        "name": "Ball-and-stick network",
+        "repository": "https://gitlab.inria.fr/rveltz/networkbas/-/tree/master"
+    },
+    "cf769b89-e9a0-49e2-a393-2763481d89fc": {
+        "name": "Multimodal Predictive Coding Network with WhiskEye and the NRP (SGA-3 Showcase)",
+        "repository": "https://github.com/TomKnowles1994/MultiPredNet/releases/tag/1.2.1"
+    },
+    "d191597a-bb56-497e-acc2-5cdd5c564b73": {
+        "name": "Purkinje cell model, generic version - Masoli et al., 2015",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "d1c1388a-2331-4b7d-8bb8-cdfbc7a0acd3": {
+        "name": "Human Purkinje cell model (Masoli et al., 2024)",
+        "repository": "https://github.com/ModelDBRepository/267694"
+    },
+    "d202689d-8180-401a-8004-cc9ee5484db0": {
+        "name": "CEREBRUM-7T: a convolutional neural network model for segmentation of 7 tesla MRI brain volumes",
+        "repository": "https://github.com/rockNroll87q/cerebrum7t/releases/tag/v1.0.0"
+    },
+    "d249dc18-24a0-434f-8a3f-de5b5719904e": {
+        "name": "CA1_int_bAC_060314AM2_20180120154128",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_060314AM2_20180120154128/CA1_int_bAC_060314AM2_20180120154128.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "d2d8cb31-de91-42fe-8472-4ac0bb7e444d": {
+        "name": "CA1 Human hippocampus network for single point neuron simulations",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-7fb22b04-5fe1-4f18-b0d0-dc1386f90f83"
+    },
+    "d2fda147-fd38-42e5-9faa-2a2c029f3845": {
+        "name": "Mouse Purkinje cell model (Masoli et al., 2024)",
+        "repository": "https://github.com/ModelDBRepository/267694"
+    },
+    "d342fa8a-9bfe-4a94-9579-ec641c485039": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150223_B1_idB",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150223_B1_idB_080220241513/"
+    },
+    "d3f213db-e671-479a-ac60-9b12a52c0359": {
+        "name": "MammalBot",
+        "repository": "https://github.com/ABRG-Models/MammalBot"
+    },
+    "d41578cf-ab3b-48be-b644-23a7046f790e": {
+        "name": "Purkinje cell - Multi compartmental",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/purkinje_mouse.zip"
+    },
+    "d42fcb8e-8dc0-4196-9773-7bf9fc134c67": {
+        "name": "Kinetic scheme of inhibitory events including gephyrin",
+        "repository": "https://object.cscs.ch/v1/AUTH_63ea6845b1d34ad7a43c8158d9572867/Migliore_SGA1_T1.1.6/hbp-00010/Gephyrin/hbp-00010_Gephyrin__ProbGABAAB_EMS_GEPH_g.mod"
+    },
+    "d43c7f90-4414-42d0-a28c-d5b2ea6e1865": {
+        "name": "CA1_int_cAC_990827IN5HP3_20180122140555",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cAC_990827IN5HP3_20180122140555/CA1_int_cAC_990827IN5HP3_20180122140555.zip?use_cell=cell_seed4_0.hoc&bluenaas=true"
+    },
+    "d46d20f5-5f74-48dd-a156-f487714d4d79": {
+        "name": "CA1_int_cAC_980120A_20190328160925",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cAC_980120A_20190328160925/CA1_int_cAC_980120A_20190328160925.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "d4b96997-43fe-44ee-a1ce-fe15226e6c1a": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150304_A2_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150304_A2_idA_080220242336/"
+    },
+    "d5326edf-05e6-4239-a04f-4d55d928d818": {
+        "name": "CA1_pyr_cACpyr_mpg141217_A_idB_20190305112803",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_mpg141217_A_idB_20190305112803/CA1_pyr_cACpyr_mpg141217_A_idB_20190305112803.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "d53292bd-90cb-4049-8837-1e6e19b3f0fe": {
+        "name": "Model of timing dependent reward plasticity - SGA1-T6.1.2",
+        "repository": "https://www.ebi.ac.uk/biomodels-main/MODEL1603270000"
+    },
+    "d6f1736e-b84d-4a2f-aeb8-75930ff5eba1": {
+        "name": "Spatial and Episodic Memory",
+        "repository": "https://github.com/bicanski/HBPcollab/tree/master/SpatialEpisodicMemoryModel-v1.0"
+    },
+    "d72236bd-6831-417a-8846-8ee28dc66e9b": {
+        "name": "Modeling mesoscopic cortical dynamics using a mean-field model of conductance-based networks of adaptive exponential integrate-and-fire neurons",
+        "repository": "https://github.com/yzerlaut/notebook_papers/blob/master/Modeling_Mesoscopic_Dynamics_JCNS_2017.ipynb"
+    },
+    "dae51b52-2229-446c-bb48-8176e2e66e7d": {
+        "name": "Granule cell 2019 - Accelerating",
+        "repository": "https://object.cscs.ch:443/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/cerebellum_circuits/BlueNaaS_models/live_paper_grc/SM_GrC2019_accellerating.zip"
+    },
+    "dd371bcb-98b0-44b2-bc37-aa35f8f40616": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idC_20190305103627",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idC_20190305103627/CA1_pyr_cACpyr_oh140807_A0_idC_20190305103627.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "dda2285d-042b-4ced-9035-b84c866ec2db": {
+        "name": "CA1_int_cNAC_011023HP2_20180118154613",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_011023HP2_20180118154613/CA1_int_cNAC_011023HP2_20180118154613.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "df097922-57b8-4132-a78a-b9bfb5c35b00": {
+        "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 5/1503",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/human_cells/cell1303_05_model_643.zip?delay=120.33&vinit=-86&dt=.025&amp=0.55&tstop=1500&dur=1000?bluenaas=true"
+    },
+    "df83ff36-5182-497a-b94a-ff0f11fb32a8": {
+        "name": "CA1_int_bAC_011017HP2_20190329115307",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_bAC_011017HP2_20190329115307/CA1_int_bAC_011017HP2_20190329115307.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "e02c0163-3c3c-45bc-a1af-5a29df859dcf": {
+        "name": "Hippocampal & Striatal navigation",
+        "repository": "https://github.com/bicanski/HBPcollab/tree/master/Striatal_v_hippocampal_nav_v3"
+    },
+    "e1080dd2-75fb-4077-be15-0e06d2eb1fbf": {
+        "name": "A biologically plausible gated recurrent neural network for working memory and learning-to-learn",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-ab1d8c26-8b76-4c62-a82b-1df0ba66922b"
+    },
+    "e291f64c-a7e6-4858-ba5a-9f8fd2bc8ae9": {
+        "name": "Thalamo-cortical spiking model with sleep-like slow oscillations improving awake visual classification through synaptic homeostasis and memory association",
+        "repository": "https://github.com/PierStanislaoPaolucci/2019thalCort-SNN-SO-AW-mem"
+    },
+    "e3afdf2b-1402-479a-9bf2-3c00b2114481": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idF_20190305115459",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_pyr_cACpyr_oh140807_A0_idF_20190305115459/CA1_pyr_cACpyr_oh140807_A0_idF_20190305115459.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "e65af953-95bd-4b3b-b227-8895cff1e653": {
+        "name": "A theoretical formalization of consequence-based decision-making",
+        "repository": "https://github.com/gloriacec/Model_ConsequenceBasedDecisionMaking/releases/tag/v1.0"
+    },
+    "e6cb6107-542e-4c3b-a117-c06d64cf4725": {
+        "name": "CA1_int_cNAC_970717D_20190307182510",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_970717D_20190307182510/CA1_int_cNAC_970717D_20190307182510.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "e81bc325-8027-4f13-8419-34990a08fc3c": {
+        "name": "Model-based spatial navigation in the hippocampus - ventral striatum circuit",
+        "repository": "https://github.com/stoianov/MBRL/tree/1.0"
+    },
+    "e919d175-b831-4295-b84c-9b00c944f0e3": {
+        "name": "Olfactory bulb network model - Davison, Feng & Brown (2003)",
+        "repository": "https://github.com/apdavison/bulbnet-reproduction/releases/tag/2020-rescience"
+    },
+    "ec58052d-a4d0-4e2a-bd20-c0053e0cd873": {
+        "name": "A model of presynaptic Kv7 channel function in hippocampal mossy fiber boutons - Martinello et al. 2019",
+        "repository": "https://modeldb.science/245417"
+    },
+    "ecf6f9e2-7bfb-4654-80af-e6d66e8ff700": {
+        "name": "Multiarea Hill-Tononi thalamocortical network model",
+        "repository": "https://github.com/ricardomurphy/Multiarea-Hill-Tononi-thalamocortical-network-model"
+    },
+    "eebc06b3-0b6d-4a88-9143-88bf5576eec1": {
+        "name": "CA1_int_cNAC_990611HP2_20190328165521",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_990611HP2_20190328165521/CA1_int_cNAC_990611HP2_20190328165521.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "f1c9dd6f-0efe-43db-9d73-9a0f7a2faf9a": {
+        "name": "Purkinje cell 2009 for studying effect of voltage sensitive fluorescent proteins on excitability (PC2009Akemann)",
+        "repository": "https://github.com/cerebunit/cerebmodels/tree/be1ba61"
+    },
+    "f1e1e6f1-a55c-4a7e-aa25-6054b09d9001": {
+        "name": "CA1_int_bAC_980120A_20180119154402",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_980120A_20180119154402/CA1_int_bAC_980120A_20180119154402.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "f3fa3710-5b91-4b8f-a25b-da4a35e7f73d": {
+        "name": "Mouse CA1 pyramidal neuron model, morphology mpg150217_A2_idA",
+        "repository": "https://data-proxy.ebrains.eu/api/v1/buckets/m-0ffae3c2-443c-44fd-919f-70a4b01506a4?prefix=CA1_pyr_mpg150217_A2_idA_080220241357/"
+    },
+    "f4b45fdd-e314-440c-9839-da004fdc4f24": {
+        "name": "CA1_pyr_cACpyr_mpg141215_A_idA_20170915152442",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141215_A_idA_20170915152442/CA1_pyr_cACpyr_mpg141215_A_idA_20170915152442.zip?use_cell=cell_seed4_0.hoc&bluenaas=true"
+    },
+    "f4ee2649-d7ce-4445-8c76-d2baab38d270": {
+        "name": "Interactive Exploration of Brain States and Spatio-Temporal Activity Patterns in Data-Constrained Simulations",
+        "repository": "https://github.com/APE-group/InteractiveExplorationBrainStates/releases/tag/v1.0"
+    },
+    "f6133e9c-5df0-4b10-b216-70ef390ef319": {
+        "name": "Self-Supervised Deep Neural Network for Image Completion",
+        "repository": "https://github.com/rockNroll87q/self-supervised_inpainting/releases/tag/v1.0.0"
+    },
+    "f678d4ef-1ee7-43ac-8a9b-465072cddf97": {
+        "name": "LOD-Brain: a 3D convolutional neural network with progressive levels-of-detail",
+        "repository": "https://github.com/rockNroll87q/LOD-Brain/releases/tag/v1.0.0"
+    },
+    "f6821bf3-b65b-4701-879d-4bf1886b9aac": {
+        "name": "CA1_pyr_cACpyr_oh140521_B0_Rat_idA_20170915111955",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140521_B0_Rat_idA_20170915111955/CA1_pyr_cACpyr_oh140521_B0_Rat_idA_20170915111955.zip?use_cell=cell_seed5_0.hoc&bluenaas=true"
+    },
+    "f854ebcd-7ebc-48a6-b4ff-a4d63cebf0fe": {
+        "name": "CA1_int_bAC_011127HP1_20180120115056",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_011127HP1_20180120115056/CA1_int_bAC_011127HP1_20180120115056.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "f8e77467-c9ae-46c9-b5b0-67ace7911a9b": {
+        "name": "Metadynamics and unbiased Molecular Dynamics simulations of PI3K\u03b1 WT and E545K to explore the free energy landscape of the E545K PI3K\u03b1 mutant",
+        "repository": "https://object.cscs.ch/v1/AUTH_7a51266670fe4d718ac2bc3951dd9f64/hbp-d000001_PI3Ka_E545K_pub"
+    },
+    "f92aa627-0485-4745-a806-d6f8e1a244c5": {
+        "name": "CA1_int_cNAC_970627BHP1_20180120154830",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970627BHP1_20180120154830/CA1_int_cNAC_970627BHP1_20180120154830.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "f9c28959-3e98-4df7-b94c-a570d94e5807": {
+        "name": "CA1_pyr_cACpyr_mpg141209_B_idA_20170915152336",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_mpg141209_B_idA_20170915152336/CA1_pyr_cACpyr_mpg141209_B_idA_20170915152336.zip?use_cell=cell_seed6_0.hoc&bluenaas=true"
+    },
+    "fa18a8fe-5c89-49e2-9121-7cd8d27d9c1f": {
+        "name": "CA1_pyr_cACpyr_oh140807_A0_idB_20170915112605",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_pyr_cACpyr_oh140807_A0_idB_20170915112605/CA1_pyr_cACpyr_oh140807_A0_idB_20170915112605.zip?use_cell=cell_seed3_0.hoc&bluenaas=true"
+    },
+    "fac0451c-2762-421e-a7da-62f8e5de539e": {
+        "name": "An Olivocerebellar Spiking Neural Network With Non-linear Neuron Properties",
+        "repository": "https://github.com/AliceGem/E-GLIF"
+    },
+    "fb2ca773-ade4-4efa-bc2a-398fbd521d69": {
+        "name": "CA1_int_cNAC_980120A_20190329155034",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/hippocampus_optimization/rat/CA1/v4.0.5/optimizations_Python3/CA1_int_cNAC_980120A_20190329155034/CA1_int_cNAC_980120A_20190329155034.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "fbe94d54-d16b-4f44-8d85-a1b388f3d7cd": {
+        "name": "Whole-brain Hopf",
+        "repository": "https://object.cscs.ch/v1/AUTH_64bf8536ad8b4872a4121f909be7e82f/DecoLab/Hopfsimulation_ARCHI.ipynb"
+    },
+    "fc1408c7-a227-4518-87e6-cd1f96cba7bb": {
+        "name": "A biophysically detailed neuronal network model of the inferior olivary nucleus of the cerebellar complex",
+        "repository": "https://github.com/MRIO/OliveTree/releases/tag/06Apr2023"
+    },
+    "fd129691-1803-4b11-ae28-daa552e464d1": {
+        "name": "Double columnar Adaptive Exponential mean-field model for decision-making",
+        "repository": "https://github.com/emrebasp/Jupyter-notebook-A-biophysically-plausible-decision-making-model-based-on-interacting-cortical-co/releases/tag/v1.0.0"
+    },
+    "fd74c926-2ec9-48ac-bd15-999027b8529f": {
+        "name": "Spike-based neuron models for the basal ganglia nuclei",
+        "repository": "https://github.com/a1eko/bglite/releases/tag/v0.1"
+    },
+    "fd992a51-0efa-4439-a620-f4dbd7bcc6d0": {
+        "name": "CA1_int_cNAC_970717D_20180118154811",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_cNAC_970717D_20180118154811/CA1_int_cNAC_970717D_20180118154811.zip?use_cell=cell_seed2_0.hoc&bluenaas=true"
+    },
+    "fdcc41ba-4c20-41e6-820f-43204366ab4c": {
+        "name": "A model of early altered excitability in ventral CA1 pyramidal neurons of TG2576 AD mice",
+        "repository": "https://modeldb.science/267066"
+    },
+    "fde75d28-ac90-479d-9946-5130e5262941": {
+        "name": "CA1_int_bAC_011017HP2_20180110153901",
+        "repository": "https://object.cscs.ch/v1/AUTH_c0a333ecf7c045809321ce9d9ecdfdea/Migliore_2018_CA1/models/CA1_int_bAC_011017HP2_20180110153901/CA1_int_bAC_011017HP2_20180110153901.zip?use_cell=cell_seed4_0.hoc&bluenaas=true"
+    },
+    "fea885ca-03a9-4352-a360-6908a79b1415": {
+        "name": "Linear vs non-linear integration in CA1 oblique dendrites (G\u00f3mez Gonz\u00e1lez et al. 2011)",
+        "repository": "https://modeldb.yale.edu/144450"
+    }
+}
