@@ -123,7 +123,8 @@ def get_cscs_file_list(url: str) -> dict[str, str]:
         file_list_url = url.split("?prefix=")[0]
         file_list_string = url.split("?prefix=")[1]
     else:
-        logger.error(f"New cscs url format: {url}")
+        logger.warning(f"Other cscs url format: {url}")
+        file_list = {url: url}
         return file_list
 
     r = requests.get(file_list_url)
@@ -271,6 +272,7 @@ def run(tokenfile: str, instanceid: typing.Optional[str] = None):
                     "description": v_description,
                     "version": v_r.version_identifier,
                     "keywords": keywords,
+                    "url": f"https://search.kg.ebrains.eu/instances/{v_r_id}",
                 }
                 if "github" in repository_r.name:
                     data_type["github"] += 1
