@@ -147,11 +147,14 @@ def get_cscs_file_list(url: str) -> dict[str, str]:
     return file_list
 
 
-def run(tokenfile: str):
-    """Main runner function
+def run(tokenfile: str, instanceid: typing.Optional[str] = None):
+    """Main runner function to get information about either all models, or a
+    model specfied using the `instanceid` argument.
 
     :param tokenfile: location of file holding the token on a single line
     :type tokenfile: str
+    :param instanceid: instance id of the model
+    :type instanceid: str
     """
     token = None
     with open(tokenfile, "r") as f:
@@ -163,8 +166,16 @@ def run(tokenfile: str):
 
     client = KGClient(token=token, host="core.kg.ebrains.eu")
 
-    # web interface says there are 266 models
-    models: list[Model] = Model.list(client, size=300)
+    if instanceid:
+        models = [Model.from_id(id=instanceid, client=client)]
+        data_file = f"ebrains-models-{instanceid}.json"
+        error_file = f"ebrains-errors-{instanceid}.json"
+    else:
+        # web interface says there are 266 models
+        models: list[Model] = Model.list(client, size=300)
+        data_file = "ebrains-models.json"
+        error_file = "ebrains-errors.json"
+
     id_h = "ID"
     name_h = "Name"
     file_h = "File location"
@@ -180,8 +191,6 @@ def run(tokenfile: str):
     errors: dict[str, dict[str, str]] = {}
     num_OK = 0
     num_erred = 0
-    data_file = "ebrains-models.json"
-    error_file = "ebrains-errors.json"
 
     for m in models:
         m_id = m.id.split(sep="/")[-1]
@@ -198,7 +207,10 @@ def run(tokenfile: str):
             if isinstance(keyws, list):
                 for k in keyws:
                     if isinstance(k, KGProxy):
-                        keywords.append(k.resolve(client).name)
+                        try:
+                            keywords.append(k.resolve(client).name)
+                        except ResolutionFailure:
+                            pass
                     else:
                         keywords.append(k.name)
             else:
@@ -239,20 +251,21 @@ def run(tokenfile: str):
                     continue
             else:
                 v_r = v
+            v_r_id = v_r.id.split(sep="/")[-1]
             repository: FileRepository = v_r.repository
             if not repository:
                 print(f"ERROR: No repository attached to {v.id}")
-                errors[m_id] = {"name": m.name, "reason": "no repository attached"}
+                errors[v_r_id] = {"name": m.name, "reason": "no repository attached"}
                 num_erred += 1
                 continue
             try:
                 repository_r = repository.resolve(client)
-                print(f"* {m_id:<40}|{m.name[:45]:<50}|{repository_r.name:<70}")
+                print(f"* {v_r_id:<40}|{m.name[:45]:<50}|{repository_r.name:<70}")
 
                 v_description += (
                     f"\n{v_r.version_innovation}" if v_r.version_innovation else ""
                 )
-                data[m_id] = {
+                data[v_r_id] = {
                     "name": m.name,
                     "repository": repository_r.name,
                     "description": v_description,
@@ -262,7 +275,6 @@ def run(tokenfile: str):
                 if "github" in repository_r.name:
                     data_type["github"] += 1
                     files = ["NA: get from GitHub adapter"]
-                    data[m_id]["files"] = files
                 elif "cscs.ch" in repository_r.name:
                     data_type["cscs"] += 1
                     files = get_cscs_file_list(repository_r.name)
@@ -278,12 +290,12 @@ def run(tokenfile: str):
                     data_type["other"] += 1
                     files = ["TODO: handle other special cases"]
 
-                data[m_id]["files"] = files
+                data[v_r_id]["files"] = files
                 num_OK += 1
 
             except ResolutionFailure:
                 print(f"* ERROR: Could not resolve {repository.id}")
-                errors[m_id] = {
+                errors[v_r_id] = {
                     "name": m.name,
                     "reason": "Repository could not be resolved",
                 }
@@ -311,4 +323,5 @@ if __name__ == "__main__":
         sys.exit(-1)
 
     print(sys.argv)
+    # run(sys.argv[1], "0ffae3c2-443c-44fd-919f-70a4b01506a4")
     run(sys.argv[1])
