@@ -19,7 +19,7 @@
         "name": "Ion channel models MSN",
         "reason": "ModelVersion could not be resolved"
     },
-    "09120b3e-d4b3-494a-ab32-c6c472e5c95b": {
+    "eaeb13a6-c23b-42cc-a0d1-f3269a706d03": {
         "name": "Active Model of Human Cortical Pyramidal Neurons in Layer 2/3 - Cell 6/1303",
         "reason": "Repository could not be resolved"
     },
@@ -51,7 +51,7 @@
         "name": "CA1_pyr_cACpyr_oh140807_A0_idG_20190328143451",
         "reason": "ModelVersion could not be resolved"
     },
-    "2b600072-be7f-423f-a979-1e35283acaca": {
+    "e1267b8b-96ec-4759-acb4-2d8ffc23f524": {
         "name": "Age-dependent excitability of CA1 pyramidal neurons in APPPS1 Alzheimer's model",
         "reason": "no repository attached"
     },

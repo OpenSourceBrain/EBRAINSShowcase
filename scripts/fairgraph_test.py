@@ -112,6 +112,21 @@ def get_cscs_file_list(url: str) -> dict[str, str]:
     file_list_url: str = ""
     file_list_string: str = ""
 
+    special_suffixes = [
+        "py",
+        "hoc",
+        "xz",
+        "zip",
+        "pkl",
+        "json",
+        "pdf",
+        "mod",
+        "txt",
+        "png",
+        "zip",
+        "ipynb",
+    ]
+
     logger.info(f"Getting file list for {url}")
     if ".zip?" in url:
         url_portions: list[str] = url.split(".zip")[0].split("/")
@@ -124,7 +139,12 @@ def get_cscs_file_list(url: str) -> dict[str, str]:
         file_list_string = url.split("?prefix=")[1]
     else:
         logger.warning(f"Other cscs url format: {url}")
-        file_list = {url: url}
+        # test if it's one of the file types
+        for suf in special_suffixes:
+            if url.endswith(suf):
+                file_list = {url: url}
+                break
+
         return file_list
 
     r = requests.get(file_list_url)
