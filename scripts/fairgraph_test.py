@@ -14,7 +14,7 @@ import sys
 import typing
 
 import requests
-from fairgraph import KGClient, KGProxy
+from fairgraph import KGClient, KGProxy, KGQuery
 from fairgraph.errors import ResolutionFailure
 from fairgraph.openminds.core import FileRepository, Model, ModelVersion
 
@@ -182,13 +182,23 @@ def run(tokenfile: str, instanceid: typing.Optional[str] = None):
         token = f.readline().strip()
 
     assert token
-    print("Token is: ")
-    print(f"{token}")
+    logger.debug("Token is: ")
+    logger.debug(f"{token}")
 
     client = KGClient(token=token, host="core.kg.ebrains.eu")
 
     if instanceid:
-        models = [Model.from_id(id=instanceid, client=client)]
+        try:
+            models = [Model.from_id(id=instanceid, client=client)]
+        except TypeError:
+            model_version = ModelVersion.from_id(id=instanceid, client=client)
+            model_query: KGQuery = model_version.is_version_of
+            model = model_query.resolve(client)
+            models = [model]
+
+        logger.debug("Models are")
+        logger.debug(models)
+
         data_file = f"ebrains-models-{instanceid}.json"
         error_file = f"ebrains-errors-{instanceid}.json"
     else:
@@ -340,10 +350,14 @@ if __name__ == "__main__":
     # print(fl)
     # sys.exit(0)
 
-    if len(sys.argv) != 2:
-        print("Takes one compulsory argument: location of file with EBRAINS token.")
+    if len(sys.argv) < 2:
+        print(
+            "Takes one compulsory argument: location of file with EBRAINS token; and one optional argument: instance id of a model."
+        )
         sys.exit(-1)
 
     print(sys.argv)
-    # run(sys.argv[1], "0ffae3c2-443c-44fd-919f-70a4b01506a4")
-    run(sys.argv[1])
+    if len(sys.argv) == 2:
+        run(sys.argv[1])
+    if len(sys.argv) == 3:
+        run(sys.argv[1], sys.argv[2])
